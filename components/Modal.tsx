@@ -12,7 +12,7 @@ import {
     VolumeUpIcon,
     XIcon,
 } from '@heroicons/react/outline'
-import ReactPlayer from 'react-player';
+import ReactPlayer from 'react-player/lazy'
 import { DocumentData } from 'firebase/firestore';
 import useAuth from '../hooks/useAuth';
 
