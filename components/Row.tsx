@@ -8,7 +8,7 @@ interface Props {
     movies: Movie[]
 }
 
-const Row = ({ title, movies }: Props) => {
+const Row = ({ title, movies = [] }: Props) => {
     const rowRef = useRef<HTMLDivElement>(null);
     const [isMoved, setIsMoved] = useState(false)
 
